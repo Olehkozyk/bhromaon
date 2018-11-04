@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700');
+@font-face{
+	font-family: "Aleo";
+	src: url("../font/aleo-regular-webfont.woff") format("woff");
+	src: url("../font/aleo-regular-webfont.woff2") format("woff2");
+}
+
+body{
+	font: 400 16px/1.6 "Aleo", sans-serif;
+	border: 16px solid#ffff;
+
+}
+p{
+	margin: 0;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1150px;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+.ba-bhromaon-title{
+	background: url(../img/bg-title.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 267px;
+	padding-bottom: 115px;
+}
+.ba-bhromaon-title h1{
+	color: #ffff;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-align: center;
+	font: 700 48px/1 'Josefin Sans', sans-serif;
+	margin-bottom: 7px;
+}
+.ba-bhromaon-title h2{
+	color: #ffff;
+	font:  300 22px/1 'Josefin Sans', sans-serif;
+	text-align: center; 
+	letter-spacing: 4.7px;
+	margin-bottom: 48px;
+
+}
+.ba-bhromaon__search{
+	display: flex;
+	max-width: 648px;
+	background: #ffff;
+	margin: 0 auto;
+	text-align: center;
+	justify-content: space-between;
+	margin-bottom: 120px;
+	
+}
+.ba-bhromaon__search input{
+	display: inline-block;
+	border: none;
+	padding: 0 120px;
+}
+.ba-bhromaon__search input:focus{
+	outline: none;
+}
+.ba-bhromaon__search input::placeholder{
+	font: 300 14px/1 'Josefin Sans', sans-serif;
+	color: #999999;
+}
+.ba-bhromaon__search button{
+	display: inline-flex;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: center; 
+	display: inline-block;
+	padding: 17px 51px 17px 34px;
+	align-items: center;
+	color: #ffff;
+	background:  #5474fd;
+	border: 2px solid#ffff;
+	position: relative;
+	letter-spacing: 1px;
+	
+}
+.ba-bhromaon__search button:hover{
+	opacity: 0.5;
+}
+.ba-bhromaon__search button svg{
+	color: currentColor;
+	width: 23px;
+	height: 23px;
+	position: absolute;
+	top: 19px;
+	right: 15px;
+
+}
+.ba-scroll{
+	text-align: center;
+}
+.ba-scroll svg{
+	fill: #fff;
+}
+.ba-scroll a{
+	font: 300 14px/1 'Josefin Sans', sans-serif;
+	color: #ffff;
+	letter-spacing: 3.22px;
+	text-decoration:  none;
+}
+.ba-scroll a:hover{
+	opacity: 0.5;
+}
+.ba-scroll svg{
+	margin-top: 15px;
+}
+.ba-bhromaon-header{
+	background:  #5474fd;
+	color: #ffff;
+	padding: 12px 0 ;
+}
+.ba-header__logo h3 a{
+	color: #ffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 1.5px;
+	font-size: 24px;
+	font-weight: 700;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.ba-bhromaon__nav ul{
+	display: flex;
+	list-style: none;
+}
+.ba-bhromaon__nav ul li a{
+	color: #ffff;
+	text-decoration:  none;
+	text-transform: uppercase;
+	font-size: 14px;
+
+}
+.ba-bhromaon__nav ul li a:hover{
+	opacity: 0.5;
+}
+.ba-flex--header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.ba-bhromaon__nav ul li + li{
+	margin-left: 42px;
+}
+.ba-bhromaon-choose{
+	background: url(../img/bg-section2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 118px;
+	padding-bottom: 120px;
+}
+.ba-choose__info {
+	padding-top: 70px;
+}
+.ba-choose__info h2{
+	font-size: 36px;
+	font-weight: 300;
+	color: #ffff;
+	margin-bottom: 49px;
+}
+.ba-choose__info p + p{
+	padding-top: 28px;
+	margin-bottom: 45px;
+}
+.ba-choose__info p{
+	font: 300 16px/1.6 'Josefin Sans', sans-serif;
+	color: #e8e8e8;
+	max-width: 530px;
+}
+.ba-bhromaon-choose button{
+	background: #5474fd;
+	padding: 18px 37px;
+	color: #fff;
+	border: none;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1.3px;
+}
+.ba-bhromaon-choose button:hover{
+	opacity: 0.5;
+}
+.ba-bhromaon-choose button a{
+
+}
+.ba-image__choose img{
+	max-width: 350px;
+	
+}
+.ba-image__choose{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+
+
+}
+.ba-image__choose img:first-child{
+	margin-right: 124px;
+	margin-bottom: 6px;
+}
+.ba-col__select{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.ba-section-search{
+	padding-top: 79px;
+	padding-bottom: 104px;
+	background: #333333;
+}
+.ba-col__select h2{
+	color:  #e8e8e8;
+	font-weight: 400;
+	font-size: 36px;
+}
+.ba-section-grand{
+	background: url(../img/bg-section4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 229px;
+	padding-bottom: 100px;
+}
+.ba-bhromaon-spain{
+	background-color:  rgba(35, 35, 35, 0.9);
+	padding: 50px 30px;
+}
+
+.ba-bhromaon-spain h4{
+	color:  #e8e8e8;
+	font: 300 20px/1 'Josefin Sans', sans-serif;
+	margin-bottom: 30px;
+}
+.ba-bhromaon-spain h3{
+	color:  #fff;
+	font: 300 20px/1 'Josefin Sans', sans-serif;
+	margin-bottom: 22px;
+	text-transform: uppercase;
+
+}
+.ba-bhromaon-spain p{
+	font: 300 16px/1.6 'Josefin Sans', sans-serif;
+	color:  #e8e8e8;
+	margin-bottom: 47px;
+	
+}
+
+.ba-bhromaon-spain button{
+	background: #5474fd;
+	padding: 16px 67px;
+	
+	border: none;
+}
+.ba-bhromaon-spain button {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+.ba-bhromaon-spain button:hover{
+	opacity: 0.6;
+}
+.ba-madrid{
+	display: flex;
+	justify-content: flex-end;
+}
+.ba-section-grand__madrid{
+	background: url(../img/bg-section5.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 229px;
+	padding-bottom: 100px;
+}
+.ba-bhroman-madrid{
+	background-color:  rgba(35, 35, 35, 0.9);
+	padding: 50px 30px;
+}
+.ba-bhroman-madrid h4{
+	color:  #e8e8e8;
+	font: 300 20px/1 'Josefin Sans', sans-serif;
+	margin-bottom: 30px;
+}
+.ba-bhroman-madrid h3{
+	color:  #fff;
+	font: 300 20px/1 'Josefin Sans', sans-serif;
+	margin-bottom: 22px;
+	text-transform: uppercase;
+	
+}
+.ba-bhroman-madrid p{
+	font: 300 16px/1.6 'Josefin Sans', sans-serif;
+	color:  #e8e8e8;
+	margin-bottom: 47px;
+	
+}
+.ba-bhroman-madrid button{
+	background: #5474fd;
+	padding: 16px 67px;
+	border: none;
+}
+.ba-bhroman-madrid button {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+.ba-bhroman-madrid button:hover{
+	opacity: 0.6;
+}
+.ba-margin-spain{
+	margin-right: -14px;
+}
+.ba-section-sam{
+	background: url(../img/bg-section-man.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 108px;
+	padding-bottom: 199px;
+	text-align: center;
+}
+.ba-section-sam h2{
+	font-size: 36px;
+	font-weight: 400;
+	color: #fff;
+	margin-bottom: 83px;
+}
+.ba-bhromaon__sam{
+	display: flex;	
+}
+.ba-bhromaon__info-man{
+	padding: 50px 54px  32px 60px;
+	text-align: left;
+	background-color:  #333333;
+}
+.ba-bhromaon__info-man h3{
+	font: 300 20px/1 'Josefin Sans', sans-serif;
+	color:  #fefefe;
+	text-transform: uppercase;
+	margin-bottom: 33px;
+}
+.ba-bhromaon__info-man p{
+	font: 300 16px/1.6 'Josefin Sans', sans-serif;
+	color:  #e8e8e8;
+	
+}
+
+.ba-bhromaon-footer{
+	background:  #232323;
+	padding: 120px 0 46px;
+	text-align: center;
+	color: #fff;
+}
+.ba-footer h2{
+	font: 700 24px/1 'Josefin Sans', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom: 12px;
+
+}
+.quote svg{
+	width: 100px;
+	height: 100px;
+}
+.ba-footer h3{
+	font: 300 16px/1 'Josefin Sans', sans-serif;
+	letter-spacing: 0.7px;
+	margin-bottom: 25px;
+}
+.ba-social a{
+	color: #fff;
+}
+.ba-social a:hover{
+	color: #5474fd;
+}
+.ba-social a + a{
+	margin-left: 20px;
+}
+.fa-linkedin-in{
+	color: #5474fd;
+}
+.fa-linkedin-in:hover{
+	color: #fff;
+	transition: ease-in 0.3s;
+}
