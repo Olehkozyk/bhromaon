@@ -246,8 +246,11 @@ textarea {
 }
 
 @media screen and (max-width: 1024px){
-	
+	.ba-bhromaon__nav ul{
+		display: none;
+	}
 	.ba-menu{
+		
 		position: absolute;
 		right: 0;
 		bottom: 50%;
@@ -259,8 +262,10 @@ textarea {
 		margin-bottom: 30px;
 	}
 	:checked ~ .ba-menu{
+		transition: transform 0.3s;
 		transform: rotateX(0);
 		margin-right: 20px;
+		display: block;
 		
 	}
 	:checked ~ .ba-burger{
